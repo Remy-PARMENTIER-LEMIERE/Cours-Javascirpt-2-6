@@ -21,7 +21,7 @@ const bubbleMaker = () => {
     Math.random() * 100 * plusMinus + 50 + "%"
   );
 
-  bubble.addEventListener("click", () => {
+  bubble.addEventListener("click", (e) => {
     counter++;
     counterDisplay.textContent = counter;
     bubble.remove();
